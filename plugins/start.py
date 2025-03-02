@@ -29,7 +29,7 @@ async def start(client, message):
     await asyncio.sleep(2)
     await loading_sticker_message.delete()
     
-    text = f"""Bonjour {message.from_user.mention} \n\n➻ Ceci est un bot de renommage avancé et puissant.\n\n➻ Avec ce bot, vous pouvez renommer et modifier la miniature de vos fichiers.\n\n➻ Vous pouvez également convertir une vidéo en fichier et un fichier en vidéo.\n\n➻ Ce bot supporte aussi la miniature personnalisée et la légende personnalisée.\n\n<b>Bot créé par @Madflix_Bots</b>"""
+    text = f"""Bonjour {message.from_user.mention} \n\n➻ Ceci est un bot de renommage avancé et puissant.\n\n➻ Avec ce bot, vous pouvez renommer et modifier la miniature de vos fichiers.\n\n➻ Vous pouvez également convertir une vidéo en fichier et un fichier en vidéo.\n\n➻ Ce bot supporte aussi la miniature personnalisée et la légende personnalisée.\n\n<b>Bot créé par @altof2</b>"""
     
     button = InlineKeyboardMarkup([
         [InlineKeyboardButton("📢 Mises à jour", url="https://t.me/sineur_x_bot"),
