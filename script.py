@@ -20,8 +20,8 @@ class script(object):
 <b>📝 Langage :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Bibliothèque :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Serveur :</b> <a href='https://render.com'>render</a>
-<b>📢 Chaîne :</b> <a href='https://t.me/sineur_x_bot'>Madflix Botz</a>
-<b>🧑‍💻 Développeur :</b> <a href='https://t.me/altof2'>Jishu Developer</a>
+<b>📢 Chaîne :</b> <a href='https://t.me/sineur_x_bot'>Bot 🤖 X Sineur</a>
+<b>🧑‍💻 Développeur :</b> <a href='https://t.me/altof2'>SINEUR</a>
 
 <b>♻️ Bot créé par :</b> @sineur_x_bot"""
 
