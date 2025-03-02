@@ -1,67 +1,67 @@
 {
     "name": "Renamer Bot 4GB",
-    "description": "Telegram File Renamer Bot 4GB",
-    "logo": "https://graph.org/file/2c62c5c158d42b0dc8deb.jpg",
-    "keywords": ["Premium Rename Bot", "Renamer Bot 4GB", "Mongo DB"],    
+    "description": "Bot de renommage de fichiers Telegram 4GB",
+    "logo": "https://graph.org/file/a832e964b6e04f82c1c75-7a8ca2206c069a333a.jpg",
+    "keywords": ["Bot de renommage premium", "Renamer Bot 4GB", "Mongo DB"],
     "repository": "https://github.com/JishuDeveloper/Rename-Bot-4GB",
     
     "env": {
         "API_ID": {
-            "description": "Your APP ID From my.telegram.org ",
+            "description": "Votre ID d'application depuis my.telegram.org",
             "value": "",
             "required": true
         },
         
         "API_HASH": {
-            "description": "Your API Hash From my.telegram.org ",
+            "description": "Votre API Hash depuis my.telegram.org",
             "value": "",
             "required": true
         },
         
         "BOT_TOKEN": {
-            "description": "Your Bot Token From @BotFather",
+            "description": "Votre token de bot depuis @BotFather",
             "value": "",
             "required": true
         },
         
         "ADMIN": {
-            "description":"Add Your User ID, If Multiple Is Use Space To Split",
+            "description": "Ajoutez votre ID utilisateur, si plusieurs, séparez-les par un espace",
             "value": "",
             "required": true
         },
         
         "STRING_SESSION": {
-            "description": "Premium 4GB Client Pyrogram v2 String Session, You Can Get It From @StringGenXRobot",
+            "description": "Session de chaîne Pyrogram v2 du client Premium 4GB, vous pouvez l'obtenir depuis @StringGenXRobot",
             "value": "",
             "required": false
         },
         
         "FORCE_SUB": {
-            "description": "Your Force Subscribe Channel Username Without @",
+            "description": "Le nom d'utilisateur de votre chaîne d'abonnement forcé sans le @",
             "value": "",
             "required": false 
         },
         
         "LOG_CHANNEL": {
-            "description":"Bot Logs Channel To Sending User Data & 4GB Premium Client To Use, Id Must Startswith -100",
+            "description": "Le canal de logs du bot pour envoyer les données utilisateur et utiliser le client Premium 4GB, l'ID doit commencer par -100",
             "value": "",
             "required": true          
         },
         
         "DATABASE_URL": {
-            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "description": "L'URL de votre base de données Mongo obtenue depuis mongodb.com",
             "value": "",
             "required": true
         },
         
-        "DATABASE_NAME":{ 
-            "description":"Your Mongo DB Database Name",
+        "DATABASE_NAME": { 
+            "description": "Le nom de votre base de données Mongo",
             "value": "JishuBotz",
             "required": false
         },
         
         "START_PIC": {
-            "description": "Your Bot Start Command Pic, You Can Get It From @GenTelegraphBot",
+            "description": "L'image pour la commande de démarrage de votre bot, vous pouvez l'obtenir depuis @GenTelegraphBot",
             "value": "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg",
             "required": false
         }
@@ -73,6 +73,6 @@
         },
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        }    
+        }
     ]
 }
