@@ -1,58 +1,57 @@
 class script(object):
     HELP_TXT = """<b>Hey</b> {}
     
-<b>Here Is The Help For My Commands.</b>"""
+<b>Voici l'aide pour mes commandes.</b>"""
 
-    CAPTION_TXT = """<b><u>📝  HOW TO SET CAPTION</u></b>
+    CAPTION_TXT = """<b><u>📝 COMMENT DÉFINIR UNE LÉGENDE</u></b>
 
-<b>⦿ /set_caption - Use This Command To Set Your Caption</b>
-<b>⦿ /see_caption - Use This Command To See Your Caption</b>
-<b>⦿ /del_caption - Use This Command To Delete Your Caption</b>"""
+<b>⦿ /set_caption - Utilisez cette commande pour définir votre légende</b>
+<b>⦿ /see_caption - Utilisez cette commande pour voir votre légende</b>
+<b>⦿ /del_caption - Utilisez cette commande pour supprimer votre légende</b>"""
    
-    THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
+    THUMBNAIL_TXT = """<b><u>🖼️ COMMENT DÉFINIR UNE MINIATURE</u></b>
 
-<b>⦿ You Can Add Custom Thumbnail Simply By Sending A Photo To Me....</b>
+<b>⦿ Vous pouvez ajouter une miniature personnalisée simplement en m'envoyant une photo...</b>
 
-<b>⦿ /viewthumb - Use This Command To See Your Thumbnail</b>
-<b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
+<b>⦿ /viewthumb - Utilisez cette commande pour voir votre miniature</b>
+<b>⦿ /delthumb - Utilisez cette commande pour supprimer votre miniature</b>"""
 
-    ABOUT_TXT = """<b>🤖 My Name :</b> {}
-<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
-<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+    ABOUT_TXT = """<b>🤖 Mon Nom :</b> {}
+<b>📝 Langage :</b> <a href='https://python.org'>Python 3</a>
+<b>📚 Bibliothèque :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
+<b>🚀 Serveur :</b> <a href='https://render.com'>render</a>
+<b>📢 Chaîne :</b> <a href='https://t.me/sineur_x_bot'>Madflix Botz</a>
+<b>🧑‍💻 Développeur :</b> <a href='https://t.me/altof2'>Jishu Developer</a>
 
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>♻️ Bot créé par :</b> @sineur_x_bot"""
 
     DONATE_TXT = """
-<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
+<b>🥲 Merci de votre intérêt pour le don ! ❤️</b>
 
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
+Si vous aimez mes bots et projets, vous pouvez 🎁 me faire un don de n'importe quel montant à partir de 10 Rs.
 
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> 
+<b>🛍 ID UPI :</b> <code>madflixofficial@axl</code> 
 
-<b>📸 Send Screenshot After Donation To Activate Your Premium Plan </b> """
+<b>📸 Envoyez une capture d'écran après le don pour activer votre plan premium </b> """
 
-    ADMIN_TXT = """<b><u>🦋 ADMIN ALL COMMANDS HERE</u></b>
+    ADMIN_TXT = """<b><u>🦋 COMMANDES ADMIN ICI</u></b>
 
-<b>⦿ /users - Use This Command To See Total Users</b>
-<b>⦿ /allids - Use This Command To See All Users IDs</b>
-<b>⦿ /broadcast - Use This Command To Send A Message To Users</b>
-<b>⦿ /warn - Use This Command To Send A Message To A User</b>
-<b>⦿ /resetpower - Use This Command To Reset User Power</b>
-<b>⦿ /ceasepower - Use This Command To Cease User Power</b>
-<b>⦿ /addpremium - Use This Command To Add Premium To Users</b>
-<b>⦿ /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
+<b>⦿ /users - Utilisez cette commande pour voir le nombre total d'utilisateurs</b>
+<b>⦿ /allids - Utilisez cette commande pour voir tous les IDs des utilisateurs</b>
+<b>⦿ /broadcast - Utilisez cette commande pour envoyer un message aux utilisateurs</b>
+<b>⦿ /warn - Utilisez cette commande pour envoyer un avertissement à un utilisateur</b>
+<b>⦿ /resetpower - Utilisez cette commande pour réinitialiser les privilèges d'un utilisateur</b>
+<b>⦿ /ceasepower - Utilisez cette commande pour retirer les privilèges d'un utilisateur</b>
+<b>⦿ /addpremium - Utilisez cette commande pour ajouter un accès premium aux utilisateurs</b>
+<b>⦿ /restart - Utilisez cette commande pour annuler tous les processus et redémarrer le bot</b>"""
 
+    METADATA_TXT = """<b><u>🖼️ COMMENT DÉFINIR DES MÉTADONNÉES PERSONNALISÉES</u></b>
 
-    METADATA_TXT = """<b><u>🖼️  HOW TO SET CUSTOM METADATA</u></b>
+Par exemple :
 
-For Example :-
+<code>Par @sineur_x_bot</code>
 
-<code>By @Madflix_Bots</code>
-
-💬 For Any Help Contact @MadflixOfficials
+💬 Pour toute aide, contactez @altof2
 """
 
 
