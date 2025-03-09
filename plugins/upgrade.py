@@ -1,81 +1,66 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply
-from pyrogram import Client , filters
-
-
+from pyrogram import Client, filters
 
 
 @Client.on_callback_query(filters.regex('upgrade'))
-async def upgrade(bot,update):
-    text = """**Free Plan User**
-Daily  Upload limit 2GB
-Price 0
+async def upgrade(bot, update):
+    text = """**Utilisateur du Plan Gratuit**  
+Limite de téléversement quotidienne : 2 Go  
+Prix : 0  
 
-**🪙 Basic**
-Daily  Upload  limit 20GB
-Price Rs 49  ind /🌎 0.59$  per Month
+**🪙 Basique**  
+Limite de téléversement quotidienne : 20 Go  
+Prix : 49 etoile (Inde) / 🌎 0,59$ par mois  
 
-**⚡ Standard**
-Daily Upload limit 50GB
-Price Rs 99  ind /🌎 1.19$  per Month
+**⚡ Standard**  
+Limite de téléversement quotidienne : 50 Go  
+Prix : 99 etoile (Inde) / 🌎 1,19$ par mois  
 
-**💎 Pro**
-Daily Upload limit 100GB
-Price Rs 179  ind /🌎 2.16$  per Month
+**💎 Pro**  
+Limite de téléversement quotidienne : 100 Go  
+Prix : 179 etoile (Inde) / 🌎 2,16$ par mois  
 
-Payment Details :-
-<b>➜ UPI ID :</b> <code>madflixofficial@axl</code>
-<b>➜ PayPal :</b> <a href='https://www.paypal.me/jishudeveloper'>Click Here</a>
-<b>➜ QR Code :</b> <a href='https://telegra.ph/QR-Payment-07-24-4'>Click Here</a>
+**Détails de paiement :**  
+<b>➜ UPI ID :</b> <code>@REQUETE_ANIME_30sbot</code>  
 
-After Payment Send Screenshots Of Payment To Admin @MadflixOfficials"""
+Après le paiement, envoyez une capture d'écran de la transaction à l'admin @altof2.
+    """
     
-    keybord = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin", url = "https://t.me/calladminrobot"),
-        InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]
-        ])
+    clavier = InlineKeyboardMarkup([
+        [InlineKeyboardButton("🦋 Admin", url="https://t.me/calladminrobot"),
+        InlineKeyboardButton("✖️ Annuler", callback_data="cancel")]
+    ])
     
-    await update.message.edit(text = text,reply_markup = keybord, disable_web_page_preview=True)
-    
+    await update.message.edit(text=text, reply_markup=clavier, disable_web_page_preview=True)
     
 
 @Client.on_message(filters.private & filters.command(["upgrade"]))
-async def upgradecm(bot,message):
-    text = """**Free Plan User**
-Daily  Upload limit 2GB
-Price 0
+async def upgradecm(bot, message):
+    text = """**Utilisateur du Plan Gratuit**  
+Limite de téléversement quotidienne : 2 Go  
+Prix : 0  
 
-**🪙 Basic**
-Daily  Upload  limit 20GB
-Price Rs 49  ind /🌎 0.59$  per Month
+**🪙 Basique**  
+Limite de téléversement quotidienne : 20 Go  
+Prix : 49 etoile (Inde) / 🌎 0,59$ par mois  
 
-**⚡ Standard**
-Daily Upload limit 50GB
-Price Rs 99  ind /🌎 1.19$  per Month
+**⚡ Standard**  
+Limite de téléversement quotidienne : 50 Go  
+Prix : 99 etoile (Inde) / 🌎 1,19$ par mois  
 
-**💎 Pro**
-Daily Upload limit 100GB
-Price Rs 179  ind /🌎 2.16$  per Month
+**💎 Pro**  
+Limite de téléversement quotidienne : 100 Go  
+Prix : 179 etoile (Inde) / 🌎 2,16$ par mois  
 
-Payment Details :-
-<b>➜ UPI ID :</b> <code>madflixofficial@axl</code>
-<b>➜ PayPal :</b> <a href='https://www.paypal.me/jishudeveloper'>Click Here</a>
-<b>➜ QR Code :</b> <a href='https://telegra.ph/QR-Payment-07-24-4'>Click Here</a>
+**Détails de paiement :**  
+<b>➜ UPI ID :</b> <code>@REQUETE_ANIME_30sbot</code>  
 
-After Payment Send Screenshots Of Payment To Admin @MadflixOfficials"""
+Après le paiement, envoyez une capture d'écran de la transaction à l'admin @altof2.
+    """
     
-    keybord = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin", url = "https://t.me/calladminrobot"),
-        InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]
-        ])
+    clavier = InlineKeyboardMarkup([
+        [InlineKeyboardButton("🦋 Admin", url="https://t.me/calladminrobot"),
+        InlineKeyboardButton("✖️ Annuler", callback_data="cancel")]
+    ])
     
-    await message.reply_text(text=text, reply_markup=keybord, quote=True, disable_web_page_preview=True)
-    
-	
-    
-    
-    
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Back-Up Channel @JishuBotz
-# Developer @JishuDeveloper & @MadflixOfficials
+    await message.reply_text(text=text, reply_markup=clavier, quote=True, disable_web_page_preview=True)
