@@ -19,7 +19,7 @@ class script(object):
     ABOUT_TXT = """<b>🤖 Mon Nom :</b> {}
 <b>📝 Langage :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Bibliothèque :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Serveur :</b> <a href='https://render.com'>render</a>
+<b>🚀 Serveur :</b> <a href='https://t.me/REQUETE_ANIME_30sbot'>clood box</a>
 <b>📢 Chaîne :</b> <a href='https://t.me/sineur_x_bot'>Bot 🤖 X Sineur</a>
 <b>🧑‍💻 Développeur :</b> <a href='https://t.me/altof2'>SINEUR</a>
 
@@ -30,7 +30,7 @@ class script(object):
 
 Si vous aimez mes bots et projets, vous pouvez 🎁 me faire un don de n'importe quel montant à partir de 10 Rs.
 
-<b>🛍 ID UPI :</b> <code>madflixofficial@axl</code> 
+<b>🛍 ID UPI :</b> <code>@REQUETE_ANIME_30sbot</code> 
 
 <b>📸 Envoyez une capture d'écran après le don pour activer votre plan premium </b> """
 
