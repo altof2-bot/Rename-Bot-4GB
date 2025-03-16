@@ -27,7 +27,7 @@ Après le paiement, envoyez une capture d'écran de la transaction à l'admin @a
     """
     
     clavier = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin", url="https://t.me/calladminrobot"),
+        [InlineKeyboardButton("🦋 Admin", url="https://t.me/altof2"),
         InlineKeyboardButton("✖️ Annuler", callback_data="cancel")]
     ])
     
@@ -59,7 +59,7 @@ Après le paiement, envoyez une capture d'écran de la transaction à l'admin @a
     """
     
     clavier = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin", url="https://t.me/calladminrobot"),
+        [InlineKeyboardButton("🦋 Admin", url="https://t.me/altof2"),
         InlineKeyboardButton("✖️ Annuler", callback_data="cancel")]
     ])
     
