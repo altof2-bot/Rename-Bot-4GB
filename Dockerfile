@@ -1,17 +1,16 @@
-FROM python:3.9-slim
+FROM python:latest
 
 WORKDIR /app
 
-# Copier le fichier requirements.txt et installer les dépendances système
 COPY requirements.txt /app/
 
-RUN apt update && apt upgrade -y && \
-    apt install -y git ffmpeg build-essential libffi-dev python3-dev
+RUN apt update && apt upgrade -y
+RUN apt install git python3-pip ffmpeg -y
 
-# Installer les dépendances Python
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copier le reste de l'application
 COPY . .
 
-CMD ["python", "bot.py"]
+RUN pip3 install -r requirements.txt
+
+COPY . /app
+
+CMD python3 bot.py
